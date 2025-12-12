@@ -1,0 +1,40 @@
+
+:root
+{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+*
+{
+    margin: 0;
+}
+
+.container
+{
+    display: grid;
+    grid: auto / auto auto auto;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+.card
+{
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    width: 12rem;
+    height: 9rem;
+    padding: 0.6rem;
+    color: azure;
+}
+
+.card img
+{
+    border-radius: 5%;
+    width: inherit;
+    height: 7rem;
+    object-fit: cover;
+}
